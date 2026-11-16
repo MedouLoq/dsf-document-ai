@@ -1,0 +1,17 @@
+<style>
+  .topnav{display:flex;align-items:center;justify-content:space-between;gap:1rem;flex-wrap:wrap;margin-bottom:2.5rem}
+  .topnav .brand{font-weight:700;color:#10b981;font-size:1.05rem;letter-spacing:-.01em;text-decoration:none}
+  .topnav .tabs{display:flex;gap:.4rem}
+  .topnav .tabs a{color:#94a3b8;text-decoration:none;padding:.45rem .9rem;border-radius:8px;font-size:.88rem;border:1px solid transparent}
+  .topnav .tabs a.active{color:#e2e8f0;background:#1e293b;border-color:#2d3a4f}
+  .topnav .tabs a:hover{color:#e2e8f0}
+  .demo-badge{display:inline-block;margin-left:.6rem;padding:2px 8px;border-radius:6px;font-size:.7rem;font-weight:600;
+    background:rgba(245,158,11,.15);color:#f59e0b;border:1px solid rgba(245,158,11,.3);vertical-align:middle}
+</style>
+<nav class="topnav">
+  <a class="brand" href="/">&#9670; DSF Document AI{% if demo %}<span class="demo-badge">DEMO · données synthétiques</span>{% endif %}</a>
+  <div class="tabs">
+    <a href="/" class="{{ 'active' if active == 'liasse' }}">Liasse fiscale (PDF)</a>
+    <a href="/forms" class="{{ 'active' if active == 'forms' }}">Formulaires manuscrits</a>
+  </div>
+</nav>

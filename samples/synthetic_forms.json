@@ -1,0 +1,156 @@
+[
+  {
+    "company_info": {
+      "nom_raison_sociale": "BOULANGERIE EXEMPLE SARL",
+      "nif_raw": "0 0 0 0 0 0 0 1",
+      "localisation": "Nouakchott",
+      "activite_principale": "Boulangerie et pâtisserie",
+      "activite_secondaire": null,
+      "forme_juridique": "SARL",
+      "sigle": "BES",
+      "nom_enqueteur": "Enquêteur Démo",
+      "annee": "2024"
+    },
+    "achats_et_stocks": {
+      "achats_marchandises_600": 62.619,
+      "variation_stocks_marchandises_6031": 0.359,
+      "achats_matieres_premieres_601": 18.863,
+      "achats_emballages_602": 0.805,
+      "variation_stocks_matieres_prem_6031": null,
+      "variation_stocks_emballages_6031": null,
+      "achats_non_stockes_606": 2.524,
+      "achats_sous_traitance_61": 1.968,
+      "charges_externes_invest_62": 0.777,
+      "charges_externes_activite_63": 4.048,
+      "total_consommations_intermediaires": 91.963
+    },
+    "charges_et_resultats": {
+      "charges_pertes_diverses_64": 0.667,
+      "frais_personnel_65": 13.137,
+      "impots_taxes_66": 0.641,
+      "charges_financieres_67": 0.816,
+      "dotations_amort_prov_68": 1.272,
+      "total_charges_exploitation": 108.496,
+      "resultat_exploitation_82": 32.769,
+      "resultat_cessions_immo_85": null,
+      "impots_resultat_86": 8.192,
+      "resultat_net_periode_87": 24.577,
+      "total_charges": 116.688
+    },
+    "produits": {
+      "ventes_marchandises_700": 118.579,
+      "prod_biens_vendue_7010": 18.869,
+      "production_exportee": null,
+      "travaux_7012": null,
+      "etudes_7015": null,
+      "prestations_services_7017": 2.251,
+      "produits_activites_annexes_706": 0.984,
+      "production_stockee_71": null,
+      "production_immobilisee_72": null,
+      "produits_divers_74": 0.582,
+      "subvention_recue_76": null
+    },
+    "autres_produits_et_infos": {
+      "produits_financiers_77": 0.264,
+      "reprises_78": null,
+      "frais_immob_transferer_79": null,
+      "total_produits": 141.265,
+      "effectif_salarie": 11,
+      "dividendes_versees": null,
+      "resultat_instance_affectation": null,
+      "reserves": 1.143,
+      "report_nouveau": 3.277,
+      "capital": 13.994
+    },
+    "acquisitions": {
+      "terrain_210": null,
+      "agenc_installations_211": 0.723,
+      "construction_212": null,
+      "installations_complexes_213": null,
+      "materiel_exploitation_214": 3.462,
+      "materiel_transport_215": 0.63,
+      "materiel_bureau_informatique_216": 0.111,
+      "autres_immob_corp_218": null,
+      "immob_en_cours_23": null,
+      "total_acquisitions": 4.926
+    },
+    "_source_file": "synthetic_form_1.jpg"
+  },
+  {
+    "company_info": {
+      "nom_raison_sociale": "TRANSPORTS DÉMO SA",
+      "nif_raw": "0 0 0 0 0 0 0 2",
+      "localisation": "Nouakchott",
+      "activite_principale": "Transport routier de marchandises",
+      "activite_secondaire": null,
+      "forme_juridique": "SA",
+      "sigle": "TDSA",
+      "nom_enqueteur": "Enquêteur Démo",
+      "annee": "2024"
+    },
+    "achats_et_stocks": {
+      "achats_marchandises_600": 63.729,
+      "variation_stocks_marchandises_6031": 0.945,
+      "achats_matieres_premieres_601": 14.996,
+      "achats_emballages_602": 0.385,
+      "variation_stocks_matieres_prem_6031": null,
+      "variation_stocks_emballages_6031": null,
+      "achats_non_stockes_606": 1.033,
+      "achats_sous_traitance_61": 1.437,
+      "charges_externes_invest_62": 0.911,
+      "charges_externes_activite_63": 5.241,
+      "total_consommations_intermediaires": 88.677
+    },
+    "charges_et_resultats": {
+      "charges_pertes_diverses_64": 0.722,
+      "frais_personnel_65": 11.413,
+      "impots_taxes_66": 1.337,
+      "charges_financieres_67": 1.424,
+      "dotations_amort_prov_68": 1.436,
+      "total_charges_exploitation": 105.009,
+      "resultat_exploitation_82": 7.737,
+      "resultat_cessions_immo_85": null,
+      "impots_resultat_86": 1.934,
+      "resultat_net_periode_87": 5.803,
+      "total_charges": 106.943
+    },
+    "produits": {
+      "ventes_marchandises_700": 96.403,
+      "prod_biens_vendue_7010": 8.245,
+      "production_exportee": null,
+      "travaux_7012": null,
+      "etudes_7015": null,
+      "prestations_services_7017": 7.436,
+      "produits_activites_annexes_706": 0.153,
+      "production_stockee_71": null,
+      "production_immobilisee_72": null,
+      "produits_divers_74": 0.509,
+      "subvention_recue_76": null
+    },
+    "autres_produits_et_infos": {
+      "produits_financiers_77": 0.421,
+      "reprises_78": null,
+      "frais_immob_transferer_79": null,
+      "total_produits": 112.746,
+      "effectif_salarie": 9,
+      "dividendes_versees": null,
+      "resultat_instance_affectation": null,
+      "reserves": 4.676,
+      "report_nouveau": 2.918,
+      "capital": 14.931
+    },
+    "acquisitions": {
+      "terrain_210": null,
+      "agenc_installations_211": 0.26,
+      "construction_212": null,
+      "installations_complexes_213": null,
+      "materiel_exploitation_214": 3.748,
+      "materiel_transport_215": 1.348,
+      "materiel_bureau_informatique_216": 0.383,
+      "autres_immob_corp_218": null,
+      "immob_en_cours_23": null,
+      "total_acquisitions": 5.739
+    },
+    "_source_file": "synthetic_form_2.jpg"
+  }
+]

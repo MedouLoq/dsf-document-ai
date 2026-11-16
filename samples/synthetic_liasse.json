@@ -1,0 +1,478 @@
+{
+  "source_file": "synthetic_liasse.pdf",
+  "total_pages": 8,
+  "pages_classified": 5,
+  "pages_skipped_early": 3,
+  "page_classification": {
+    "1": "NONE",
+    "2": "A1",
+    "3": "B11",
+    "4": "NONE",
+    "5": "B12"
+  },
+  "identification": {
+    "nom_entreprise": "SOCIÉTÉ EXEMPLE DE NÉGOCE SARL",
+    "sigle": "SEN",
+    "nif": "00000000",
+    "date_depot": "28/03/2025",
+    "date_ouverture_exercice": "01/01/2024",
+    "date_cloture_exercice": "31/12/2024",
+    "premier_exercice": "N",
+    "dernier_exercice": "N",
+    "activite_principale": "Commerce de gros de matériaux de construction",
+    "activites_secondaires": "Transport de marchandises",
+    "forme_juridique": "SARL",
+    "date_creation": "15/06/2016",
+    "numero_registre_commerce": "RC-EXEMPLE-0001",
+    "adresse_complete": "Îlot Exemple, Lot 0, Nouakchott",
+    "pays": "Mauritanie",
+    "telephone": "+222 00 00 00 00",
+    "email": "contact@example.com",
+    "nombre_employes": "24",
+    "representant_legal_nom": "Représentant Exemple",
+    "representant_legal_fonction": "Gérant",
+    "representant_legal_telephone": "+222 00 00 00 01",
+    "representant_legal_email": "gerant@example.com",
+    "responsable_comptabilite_nom": "Comptable Exemple",
+    "responsable_comptabilite_fonction": "Chef comptable",
+    "responsable_comptabilite_telephone": "+222 00 00 00 02",
+    "responsable_comptabilite_email": "compta@example.com",
+    "cabinet_comptable_nom": "Cabinet Démo Audit",
+    "cabinet_comptable_adresse": "Avenue Fictive, Nouakchott",
+    "cabinet_comptable_telephone": "+222 00 00 00 03",
+    "cabinet_comptable_email": "audit@example.org"
+  },
+  "bilan": {
+    "exercice_clos": "31/12/2024",
+    "actif": [
+      {
+        "ref": "01",
+        "label": "Immobilisations incorporelles",
+        "section": "Actif immobilisé",
+        "brut": 38113000,
+        "amort": 12188829,
+        "net": 25924171,
+        "net_prev": 27169973
+      },
+      {
+        "ref": "03",
+        "label": "Terrains",
+        "section": "Actif immobilisé",
+        "brut": 10113000,
+        "amort": 0,
+        "net": 10113000,
+        "net_prev": 10964867
+      },
+      {
+        "ref": "05",
+        "label": "Constructions",
+        "section": "Actif immobilisé",
+        "brut": 43328000,
+        "amort": 17373370,
+        "net": 25954630,
+        "net_prev": 28142934
+      },
+      {
+        "ref": "07",
+        "label": "Matériel d'exploitation",
+        "section": "Actif immobilisé",
+        "brut": 39821000,
+        "amort": 15299887,
+        "net": 24521113,
+        "net_prev": 19981685
+      },
+      {
+        "ref": "09",
+        "label": "Matériel de transport",
+        "section": "Actif immobilisé",
+        "brut": 16488000,
+        "amort": 2780422,
+        "net": 13707578,
+        "net_prev": 14496319
+      },
+      {
+        "ref": "11",
+        "label": "Matériel de bureau et informatique",
+        "section": "Actif immobilisé",
+        "brut": 20979000,
+        "amort": 6664097,
+        "net": 14314903,
+        "net_prev": 13773882
+      },
+      {
+        "ref": "13",
+        "label": "Autres immobilisations corporelles",
+        "section": "Actif immobilisé",
+        "brut": 39415000,
+        "amort": 10775774,
+        "net": 28639226,
+        "net_prev": 29923348
+      },
+      {
+        "ref": "A",
+        "label": "Total actif immobilisé",
+        "section": "Actif immobilisé",
+        "brut": 208257000,
+        "amort": 65082379,
+        "net": 143174621,
+        "net_prev": 144453008
+      },
+      {
+        "ref": "21",
+        "label": "Stocks",
+        "section": "Actif circulant",
+        "brut": 13844000,
+        "amort": 0,
+        "net": 13844000,
+        "net_prev": 11503210
+      },
+      {
+        "ref": "27",
+        "label": "Clients et comptes rattachés",
+        "section": "Actif circulant",
+        "brut": 39434000,
+        "amort": 0,
+        "net": 39434000,
+        "net_prev": 39105674
+      },
+      {
+        "ref": "31",
+        "label": "État, collectivités et organismes sociaux",
+        "section": "Actif circulant",
+        "brut": 2025000,
+        "amort": 0,
+        "net": 2025000,
+        "net_prev": 1679189
+      },
+      {
+        "ref": "35",
+        "label": "Débiteurs divers",
+        "section": "Actif circulant",
+        "brut": 48668000,
+        "amort": 0,
+        "net": 48668000,
+        "net_prev": 39851144
+      },
+      {
+        "ref": "41",
+        "label": "Banques",
+        "section": "Actif circulant",
+        "brut": 5906000,
+        "amort": 0,
+        "net": 5906000,
+        "net_prev": 5821561
+      },
+      {
+        "ref": "43",
+        "label": "Caisse",
+        "section": "Actif circulant",
+        "brut": 34533000,
+        "amort": 0,
+        "net": 34533000,
+        "net_prev": 34675275
+      },
+      {
+        "ref": "B",
+        "label": "Total actif circulant",
+        "section": "Actif circulant",
+        "brut": 144410000,
+        "amort": 0,
+        "net": 144410000,
+        "net_prev": 132636053
+      },
+      {
+        "ref": "45",
+        "label": "Charges constatées d'avance",
+        "section": "Comptes de régularisation",
+        "brut": 2251000,
+        "amort": 0,
+        "net": 2251000,
+        "net_prev": 2325662
+      },
+      {
+        "ref": "C",
+        "label": "Total comptes de régularisation",
+        "section": "Comptes de régularisation",
+        "brut": 2251000,
+        "amort": 0,
+        "net": 2251000,
+        "net_prev": 2325662
+      },
+      {
+        "ref": "D",
+        "label": "TOTAL ACTIF (D=A+B+C)",
+        "section": "Comptes de régularisation",
+        "brut": 354918000,
+        "amort": 65082379,
+        "net": 289835621,
+        "net_prev": 279414723
+      }
+    ],
+    "passif": [
+      {
+        "ref": "51",
+        "label": "Capital",
+        "section": "Capitaux propres",
+        "net": 20000000,
+        "net_prev": 20000000
+      },
+      {
+        "ref": "53",
+        "label": "Réserves",
+        "section": "Capitaux propres",
+        "net": 2000000,
+        "net_prev": 2000000
+      },
+      {
+        "ref": "55",
+        "label": "Report à nouveau",
+        "section": "Capitaux propres",
+        "net": 4907000,
+        "net_prev": 3199000
+      },
+      {
+        "ref": "57",
+        "label": "Résultat de l'exercice",
+        "section": "Capitaux propres",
+        "net": 33634838,
+        "net_prev": 28165538
+      },
+      {
+        "ref": "E",
+        "label": "Total capitaux propres et ressources assimilées",
+        "section": "Capitaux propres",
+        "net": 60541838,
+        "net_prev": 53364538
+      },
+      {
+        "ref": "71",
+        "label": "Emprunts et dettes à long et moyen terme",
+        "section": "Emprunts et dettes",
+        "net": 22424000,
+        "net_prev": 23924000
+      },
+      {
+        "ref": "75",
+        "label": "Fournisseurs et comptes rattachés",
+        "section": "Emprunts et dettes",
+        "net": 195384783,
+        "net_prev": 192463185
+      },
+      {
+        "ref": "81",
+        "label": "État, collectivités et organismes sociaux",
+        "section": "Emprunts et dettes",
+        "net": 2613000,
+        "net_prev": 2508000
+      },
+      {
+        "ref": "85",
+        "label": "Créditeurs divers",
+        "section": "Emprunts et dettes",
+        "net": 2626000,
+        "net_prev": 1368000
+      },
+      {
+        "ref": "89",
+        "label": "Concours bancaires courants",
+        "section": "Emprunts et dettes",
+        "net": 5863000,
+        "net_prev": 4999000
+      },
+      {
+        "ref": "F",
+        "label": "Total emprunts et dettes",
+        "section": "Emprunts et dettes",
+        "net": 228910783,
+        "net_prev": 225262185
+      },
+      {
+        "ref": "91",
+        "label": "Produits constatés d'avance",
+        "section": "Comptes de régularisation",
+        "net": 383000,
+        "net_prev": 788000
+      },
+      {
+        "ref": "G",
+        "label": "Total comptes de régularisation",
+        "section": "Comptes de régularisation",
+        "net": 383000,
+        "net_prev": 788000
+      },
+      {
+        "ref": "H",
+        "label": "TOTAL PASSIF (H=E+F+G)",
+        "section": "Comptes de régularisation",
+        "net": 289835621,
+        "net_prev": 279414723
+      }
+    ],
+    "soldes_intermediaires": [
+      {
+        "ref": "I",
+        "label": "Capitaux permanents",
+        "net": 82965838,
+        "net_prev": 77288538
+      },
+      {
+        "ref": "J",
+        "label": "Fond de roulement",
+        "net": -60208783,
+        "net_prev": -67164470
+      },
+      {
+        "ref": "K",
+        "label": "Besoin en fond de roulement",
+        "net": -96652783,
+        "net_prev": -104199968
+      }
+    ]
+  },
+  "compte_resultat": {
+    "exercice": "2024",
+    "exercice_precedent": "2023",
+    "determination_resultat": [
+      {
+        "ref": "01",
+        "label": "Ventes de marchandises",
+        "current": 185305000,
+        "prev": 155617000
+      },
+      {
+        "ref": "05",
+        "label": "Production vendue de services",
+        "current": 25882000,
+        "prev": 22124360
+      },
+      {
+        "ref": "11",
+        "label": "Autres produits",
+        "current": 877000,
+        "prev": 910740
+      },
+      {
+        "ref": "A",
+        "label": "Total des produits d'exploitation",
+        "current": 212064000,
+        "prev": 178652100
+      },
+      {
+        "ref": "21",
+        "label": "Achats de marchandises et de matières premières",
+        "current": 131566550,
+        "prev": 110488070
+      },
+      {
+        "ref": "23",
+        "label": "Variation de stocks de marchandises",
+        "current": -2308000,
+        "prev": -1667540
+      },
+      {
+        "ref": "25",
+        "label": "Achats non stockés",
+        "current": 3666000,
+        "prev": 2612680
+      },
+      {
+        "ref": "31",
+        "label": "Charges externes liées à l'activité",
+        "current": 9098000,
+        "prev": 7891360
+      },
+      {
+        "ref": "35",
+        "label": "Frais de personnel",
+        "current": 16148000,
+        "prev": 14523680
+      },
+      {
+        "ref": "37",
+        "label": "Impôts, taxes et versements assimilés",
+        "current": 2348000,
+        "prev": 1916080
+      },
+      {
+        "ref": "39",
+        "label": "Dotations aux amortissements",
+        "current": 4096000,
+        "prev": 3501060
+      },
+      {
+        "ref": "B",
+        "label": "Total des charges d'exploitation",
+        "current": 164614550,
+        "prev": 139265390
+      },
+      {
+        "ref": "C",
+        "label": "Résultat d'exploitation",
+        "current": 47449450,
+        "prev": 39386710
+      },
+      {
+        "ref": "51",
+        "label": "Produits financiers",
+        "current": 193000,
+        "prev": 138460
+      },
+      {
+        "ref": "53",
+        "label": "Charges financières",
+        "current": 2796000,
+        "prev": 1971120
+      },
+      {
+        "ref": "D",
+        "label": "Résultat financier",
+        "current": -2603000,
+        "prev": -1832660
+      },
+      {
+        "ref": "F",
+        "label": "Résultat avant impôt",
+        "current": 44846450,
+        "prev": 37554050
+      },
+      {
+        "ref": "71",
+        "label": "Impôt sur les bénéfices",
+        "current": 11211612,
+        "prev": 9388512
+      },
+      {
+        "ref": "G",
+        "label": "Résultat net de l'exercice",
+        "current": 33634838,
+        "prev": 28165538
+      }
+    ],
+    "soldes_intermediaires_gestion": [
+      {
+        "ref": "H",
+        "label": "Chiffre d'affaires (CA)",
+        "current": 211187000,
+        "prev": 177741360
+      },
+      {
+        "ref": "J",
+        "label": "Valeur ajoutée (VA)",
+        "current": 70041450,
+        "prev": 59327530
+      },
+      {
+        "ref": "K",
+        "label": "Excédent brut d'exploitation (EBE)",
+        "current": 51545450,
+        "prev": 42887770
+      },
+      {
+        "ref": "L",
+        "label": "Capacité d'autofinancement (CAF)",
+        "current": 37730838,
+        "prev": 31666598
+      }
+    ]
+  }
+}
