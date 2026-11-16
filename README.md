@@ -64,6 +64,13 @@ Pages sent to the classifier stay at about 5–15 no matter how long the filing 
 
 **What is *not* measured yet:** there is no field-level accuracy benchmark against hand-keyed ground truth. Quality was checked with an automated label-consistency test suite and manual PDF-vs-Excel spot checks. A labelled evaluation set is the next step (see [Limitations](#limitations)).
 
+## Data protection
+
+The production run used **Vertex AI** (Google Cloud, enterprise terms), not the consumer Gemini app or the free Gemini API. Under Google Cloud's generative AI data governance terms, Google does not use customer prompts or documents to train or fine-tune its models without permission. Data is processed only to return the result; Google may keep prompts temporarily for abuse monitoring, and its cache is deleted within 24 hours (it can be disabled per project).
+No filing, extracted value or output from the production run is included in this repository.
+
+> ⚠️ Use the Vertex AI backend for confidential documents. The **free (unpaid) Gemini API tier** allows Google to use submitted content to improve its products, so it is only suitable for the synthetic samples.
+
 ## Screenshots
 
 | Handwritten forms → ERETES | Batch dashboard |
@@ -129,6 +136,7 @@ cp .env.example .env
 # Option A: Vertex AI. Set GCP_PROJECT_ID and GOOGLE_APPLICATION_CREDENTIALS
 #           (path to a service-account key kept OUTSIDE the repo)
 # Option B: set GEMINI_API_KEY
+#           (paid/billing-enabled projects only for real documents; see Data protection)
 python app.py
 ```
 
